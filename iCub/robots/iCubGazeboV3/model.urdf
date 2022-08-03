@@ -1796,4 +1796,9 @@
   <gazebo>
     <pose>0.0 0.0 0.64 0.0 0.0 0.0</pose>
   </gazebo>
+  <gazebo>
+    <plugin name="base_state" filename="libgazebo_yarp_basestate.so">
+      <yarpConfigurationFile>model://iCub/conf_icub3/gazebo_icub_base_state.ini</yarpConfigurationFile>
+    </plugin>
+  </gazebo>
 </robot>
